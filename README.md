@@ -17,3 +17,4 @@ endpoint paths, methods, perameters
 | EMPLOYEES | updates an id    |   '<int:id>'  | PUT/PATCH | name(str), email(str), phone_number(int), clock_in_number(int) |
 
 # restaurant_api
+# restaurant_api
