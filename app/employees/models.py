@@ -8,5 +8,6 @@ class Employee(models.Model):
     phone_number = models.CharField(max_length=12, blank=True, default='')
     clock_in_number = models.IntegerField(blank=False, default='', unique=True)
 
+
     def __str__(self):
         return self.first_name
