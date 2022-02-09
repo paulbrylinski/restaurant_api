@@ -5,7 +5,7 @@ multiple APIs to communicate with the server by using Django's built in ORM.
 </p>
 
 <h3>Tools Used:</h3>
-<p>The tools used in this project were Django, Django ORM, Docker Compose, PostgreSQL, Github</p>
+<p>The tools used in this project were Django, Django ORM, Docker Compose, PostgreSQL, Github, Deployed to Amazon AWS (since deleted) using nginx and EC2</p>
 
 endpoint paths, methods, perameters 
 
