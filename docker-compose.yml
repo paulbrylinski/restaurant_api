@@ -18,14 +18,14 @@ services:
       - DATABASE=postgres
       - VIRTUAL_HOST=ec2-34-236-188-110.compute-1.amazonaws.com
       - VIRTUAL_PORT=8000
-    nginx:
-      build: ./nginx
-      image: 832520132844.dkr.ecr.us-east-1.amazonaws.com/docker_docker_aws_ec2:project_nginx
-      volumes:
-        - static_volume:/usr/src/app/static
-      ports:
-        - 8000:80
-      depends_on:
-        - web
-  volumes:
-    static_volume: null
+  nginx:
+    build: ./nginx
+    image: 832520132844.dkr.ecr.us-east-1.amazonaws.com/docker_docker_aws_ec2:project_nginx
+    volumes:
+      - static_volume:/usr/src/app/static
+    ports:
+      - 8000:80
+    depends_on:
+      - web
+volumes:
+  static_volume: null
